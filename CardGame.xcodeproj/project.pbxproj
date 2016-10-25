@@ -64,10 +64,18 @@
 				04D02D331DBFE3EE00947EAD /* Assets.xcassets */,
 				04D02D351DBFE3EE00947EAD /* LaunchScreen.storyboard */,
 				04D02D381DBFE3EE00947EAD /* Info.plist */,
+				04D02D421DBFE66200947EAD /* Model */,
+			);
+			path = CardGame;
+			sourceTree = "<group>";
+		};
+		04D02D421DBFE66200947EAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				04D02D3E1DBFE5D000947EAD /* Card.swift */,
 				04D02D401DBFE5F300947EAD /* PlayingCard.swift */,
 			);
-			path = CardGame;
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
