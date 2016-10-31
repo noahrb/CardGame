@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>270</y>
+      <w>270</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>CardGame.Model::Deck
+--
+
+--
+bg=blue
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>20</y>
+      <w>290</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>CardGame.model::Card
+--
+- backImage : UIImage
+- isFaceUp : Bool
+--
++ getBackImage() : UIImage
++ getFacing() : Bool
++ init() : Initializer
++ toString() : String
+bg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>480</y>
+      <w>280</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>CardGame.Model::PlayingCard
+--
+- rank : Int
+- suit : String
+- color : UIColor
+--
++ getRank() : int
++ getSuit : String
++ getColor : UIColor
++ int() : Initializer
++ toString() : String
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>230</y>
+      <w>210</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>190.0;10.0;190.0;120.0;10.0;120.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>10</y>
+      <w>270</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Package::ClassName
+--
+Data Members
+Should be private(-)
+--
+methods and init/Constructors
+public/private as needed (+/-)
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>480</y>
+      <w>270</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>CardGame.Model::PlayingCardDeck
+--
+cards : [PlayingCard]
+--
++init
++shuffleDeck() : Void
++orderDeck() : Void
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>540</y>
+      <w>210</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=52</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>410</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+</diagram>

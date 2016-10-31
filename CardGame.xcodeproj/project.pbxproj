@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		046B5A601DC27DBB001C5664 /* CardGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B5A5F1DC27DBB001C5664 /* CardGameController.swift */; };
+		049D9D3E1DC7C58E00955420 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D9D3D1DC7C58E00955420 /* Deck.swift */; };
+		049D9D401DC7C59E00955420 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D9D3F1DC7C59E00955420 /* PlayingCardDeck.swift */; };
 		04D02D2D1DBFE3EE00947EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D02D2C1DBFE3EE00947EAD /* AppDelegate.swift */; };
 		04D02D321DBFE3EE00947EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D02D301DBFE3EE00947EAD /* Main.storyboard */; };
 		04D02D341DBFE3EE00947EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D02D331DBFE3EE00947EAD /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		046B5A5F1DC27DBB001C5664 /* CardGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardGameController.swift; path = Controller/CardGameController.swift; sourceTree = "<group>"; };
+		049D9D3D1DC7C58E00955420 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = Model/Deck.swift; sourceTree = "<group>"; };
+		049D9D3F1DC7C59E00955420 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayingCardDeck.swift; path = Model/PlayingCardDeck.swift; sourceTree = "<group>"; };
 		04D02D291DBFE3EE00947EAD /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D02D2C1DBFE3EE00947EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D02D311DBFE3EE00947EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				04D02D3E1DBFE5D000947EAD /* Card.swift */,
+				049D9D3D1DC7C58E00955420 /* Deck.swift */,
+				049D9D3F1DC7C59E00955420 /* PlayingCardDeck.swift */,
 				04D02D401DBFE5F300947EAD /* PlayingCard.swift */,
 			);
 			name = Model;
@@ -159,6 +165,8 @@
 			files = (
 				04D02D3F1DBFE5D000947EAD /* Card.swift in Sources */,
 				04D02D411DBFE5F300947EAD /* PlayingCard.swift in Sources */,
+				049D9D3E1DC7C58E00955420 /* Deck.swift in Sources */,
+				049D9D401DC7C59E00955420 /* PlayingCardDeck.swift in Sources */,
 				04D02D2D1DBFE3EE00947EAD /* AppDelegate.swift in Sources */,
 				046B5A601DC27DBB001C5664 /* CardGameController.swift in Sources */,
 			);
