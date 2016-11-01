@@ -35,7 +35,7 @@ class Card
     
     init()
     {
-        backImage = UIImage()
+        backImage = UIImage(named: "cardback")!
         isFaceUp = false
     }
     
@@ -49,7 +49,7 @@ class Card
         return isFaceUp
     }
     
-    func setFacing(isFaceup : Bool)
+    func setFacing(isFaceUp : Bool)
     {
         self.isFaceUp = isFaceUp
     }
