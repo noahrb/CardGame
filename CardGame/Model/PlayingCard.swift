@@ -13,7 +13,6 @@ class PlayingCard : Card
     internal var suit : String
     internal var color : UIColor
     internal var rank : Int
-
     override init()
     {
         suit = ""
