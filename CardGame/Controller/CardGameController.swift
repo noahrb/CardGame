@@ -15,7 +15,7 @@ class CardGameController : UIViewController
     
     @IBOutlet weak var cardLabel: UILabel!
     @IBOutlet weak var cardButton: UIButton!
-    
+    @IBOutlet weak var matchChecker: UIButton!
     override func viewDidLoad() -> Void
     {
         let tempCard = Card()
@@ -41,5 +41,11 @@ class CardGameController : UIViewController
         
     }
     
+    
+
+    @IBAction func matchChecker(sender: AnyObject)
+    {
+        // going to write this variable by using temp variables and comparing the 2 slots, if its a match -> remove from system. 
+    }
 
 }

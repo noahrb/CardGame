@@ -33,24 +33,39 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOM-R6-FyV">
+                                <rect key="frame" x="227" y="535" width="146" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="yTl-IL-zmc"/>
+                                </constraints>
+                                <state key="normal" title="MatchCheckerButton"/>
+                                <connections>
+                                    <action selector="matchChecker:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0nL-AV-HFB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cOM-R6-FyV" secondAttribute="bottom" constant="25" id="Gha-U4-zmG"/>
                             <constraint firstItem="4Ww-O6-Pyh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JAB-Q7-qJk"/>
                             <constraint firstItem="Dcm-Kq-myl" firstAttribute="width" secondItem="4Ww-O6-Pyh" secondAttribute="width" id="RaM-B2-5G1"/>
                             <constraint firstItem="Dcm-Kq-myl" firstAttribute="leading" secondItem="4Ww-O6-Pyh" secondAttribute="leading" id="Rys-vs-JeI"/>
                             <constraint firstItem="4Ww-O6-Pyh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="daU-qB-ynx"/>
                             <constraint firstItem="4Ww-O6-Pyh" firstAttribute="top" secondItem="Dcm-Kq-myl" secondAttribute="bottom" constant="30" id="rgk-1H-no5"/>
+                            <constraint firstItem="cOM-R6-FyV" firstAttribute="top" secondItem="4Ww-O6-Pyh" secondAttribute="bottom" constant="15" id="uQg-Y0-oBb"/>
+                            <constraint firstItem="cOM-R6-FyV" firstAttribute="centerX" secondItem="4Ww-O6-Pyh" secondAttribute="centerX" id="zid-yg-KN0"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="cardButton" destination="4Ww-O6-Pyh" id="hqu-m3-2I5"/>
                         <outlet property="cardLabel" destination="Dcm-Kq-myl" id="nfH-tr-Ddj"/>
+                        <outlet property="matchChecker" destination="cOM-R6-FyV" id="gwr-VP-xt4"/>
+                        <outlet property="matchCheckerButton" destination="cOM-R6-FyV" id="Ed1-o8-hSo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="695" y="367"/>
+            <point key="canvasLocation" x="805" y="510"/>
         </scene>
     </scenes>
     <resources>
