@@ -22,27 +22,24 @@ class StupidGame
     init()
     {
         gameDeck = PlayingCardDeck()
-        slot1 =
-        slot2 =
-        matchChecker = false
+        slot1 = 8
+        slot2 = 2
+        matchChecker = true
     }
     
     // Methods
-    func startGame() -> Void
-    {
-         func matchChecker(sender: AnyObject) -> Void
-        {
-            // going to write this variable by using temp variables and comparing the 2 slots, if its a match -> remove from system.
-            if slot1.value = slot2.value -> for
+   // func startGame() -> Void
+    //{
+         //func matchChecker(sender: AnyObject) -> Void
+     //   {
+          // going to write this variable by using temp variables and comparing the 2 slots, if its a match -> remove from system.
+           // if slot1.value = slot2.value -> for
                 
                 
-                while slot1.value = slot2.value
-                {
-                    let selectedCard = Int 
-            }
-            {
-                
-            }
-        }
-    }
+               // while slot1.value = slot2.value
+              //  {
+               //     let selectedCard = Int
+        //    }
+      //  }
+  //  }
 }
