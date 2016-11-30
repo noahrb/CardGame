@@ -14,32 +14,36 @@ class StupidGame
     // Declaration Section
     //internal var nameOfVariable : Type
     internal var gameDeck : PlayingCardDeck
-    internal var slot1 : Int
-    internal var slot2 : Int
+    internal var slot1 : [PlayingCard]
+    internal var slot2 : [PlayingCard]
     internal var matchChecker : Bool
+    internal var hand : [PlayingCard]
     
     // inits
     init()
     {
         gameDeck = PlayingCardDeck()
-        slot1 = 8
-        slot2 = 2
+        slot1 = [PlayingCard]()
+        slot2 = [PlayingCard]()
         matchChecker = true
+        hand = [PlayingCard]()
     }
     
     // Methods
-   // func startGame() -> Void
-    //{
-         //func matchChecker(sender: AnyObject) -> Void
-     //   {
-          // going to write this variable by using temp variables and comparing the 2 slots, if its a match -> remove from system.
-           // if slot1.value = slot2.value -> for
-                
-                
-               // while slot1.value = slot2.value
-              //  {
-               //     let selectedCard = Int
-        //    }
-      //  }
-  //  }
+    func startGame() -> Void
+    {
+        gameDeck.shuffleDeck()
+        
+        
+        func matchChecker(sender: AnyObject) -> Void
+        {
+            while gameDeck.cards.count > 0
+            {
+                if(slot1[0].rank == slot2[0].rank)
+                {
+                    
+                }
+            }
+        }
+    }
 }

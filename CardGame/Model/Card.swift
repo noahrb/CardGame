@@ -6,14 +6,22 @@
 //  Copyright © 2016 Beverly, Noah. All rights reserved.
 //
 
+import UIKit
+
 class Card
 {
-
+    internal var backImage : UIImage
     internal var isFaceUp : Bool
     
     init()
     {
-       isFaceUp = false
+        backImage = UIImage(named: "card back")!
+        isFaceUp = false
+    }
+    
+    func getBackImage() -> UIImage
+    {
+        return backImage
     }
     
     func isFacing() -> Bool
